@@ -17,3 +17,14 @@ WHERE query_starttime >= '2023-07-01'
 GROUP BY employee_id;
 ```
 ------------------------------------------------
+Suppose you want to add one day to an date which is in time stamp format, then it has to be this way</br>
+`INTERVAL '1 day'`
+```python
+SELECT DISTINCT e.user_id
+FROM emails e
+JOIN texts t
+ON e.email_id = t.email_id
+WHERE t.action_date = e.signup_date + INTERVAL '1 day'
+  AND t.signup_action = 'Confirmed';
+```
+------------------------------------------------
