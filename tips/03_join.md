@@ -1,5 +1,5 @@
 -----------------------------------------------
-When you are writing the query, if you just write `JOIN`, then it means that the result will contain intersection data</br>
+When you are writing the query, if you just write `JOIN`, then it means `INNER JOIN`, which means that the result will contain intersection data.</br>
 Based on question, sometimes you need not only intersection data but also either complete data from left side table / right side table</br>
 If you want data from left side table, then use LEFT OUTER JOIN</br>
 If you want data from right side table, then use RIGHT OUTER JOIN</br>
