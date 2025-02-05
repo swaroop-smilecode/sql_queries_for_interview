@@ -1,0 +1,5 @@
+- MAX
+- MIN
+- SUM
+- AVG
+- For calculating mean, you don't use function. Instead, sum(column_x) / sum(column_y) 
