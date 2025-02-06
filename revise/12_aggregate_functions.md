@@ -1,3 +1,4 @@
+---------------------------------------------
 #### Most frequently used aggregate functions
 - MAX
 - MIN
@@ -10,3 +11,10 @@ It's not mandatory to use GROUP BY when using aggregate functions.</br>
 If you don't use GROUP BY, then only one result will be returned for the whole table on which you are running the query.</br>
 But, if you use the GROUP BY, then whole table gets split into different tables & the aggregate function runs on those small tables</br>
 because of which you will see multilple results returned for the query.
+
+---------------------------------------------
+##### COUNT 
+This function returns number of records returned by an select query.</br>
+Note: `NULL` values are not counted.
+
+---------------------------------------------
